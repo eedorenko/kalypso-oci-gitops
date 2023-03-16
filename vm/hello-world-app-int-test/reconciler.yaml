@@ -4,4 +4,4 @@
     name: "ansible-pull-dsc"
     minute: "*/1"
     job: |
-      sudo ansible-pull -o -U https://github.com/eedorenko/kalypso-oci-app-gitops -C dev -d int-test | logger -p local4.debug
+      ansible-pull -o -U https://github.com/eedorenko/kalypso-oci-app-gitops -C dev -d int-test | logger -p local4.debug
