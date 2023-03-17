@@ -3,7 +3,6 @@
   tasks:
   - name: install cron job (ansible-pull)
     cron:
-      user: root
       name: "ansible-pull-dsc"
       minute: "*/1"
       job: |
