@@ -3,10 +3,8 @@
   tasks:
   - name: install cron job (ansible-pull)
     cron:
-      user: ansible
       name: "ansible-pull-dsc"
       minute: "*/1"
       job: |
         ansible-pull -o -U https://github.com/eedorenko/kalypso-oci-app-gitops -C dev int-test/install.yml > /tmp/ansible-pull.log 2>&1
 
-        
