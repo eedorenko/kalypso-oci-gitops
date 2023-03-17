@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  tasks:
+  - name: create a user
+    ansible.builtin.user:
+        name: dev-kaizen-app-team-hello-world-app-int-test
