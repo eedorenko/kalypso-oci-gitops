@@ -8,3 +8,7 @@
       user: dev-hello-world-app-int-test
       job: |
         ansible-pull -o -U https://github.com/eedorenko/kalypso-oci-app-gitops -C dev int-test/install.yml > /tmp/ansible-pull.log
+
+
+
+  
