@@ -1,11 +1,27 @@
-apiVersion: v1
+typemeta:
+  kind: ""
+  apiversion: ""
+objectmeta:
+  name: platform-config
+  generatename: ""
+  namespace: dev-platform-team-observability-prometheus
+  selflink: ""
+  uid: ""
+  resourceversion: ""
+  generation: 0
+  creationtimestamp: "0001-01-01T00:00:00Z"
+  deletiontimestamp: null
+  deletiongraceperiodseconds: null
+  labels: {}
+  annotations: {}
+  ownerreferences: []
+  finalizers: []
+  managedfields: []
+immutable: null
 data:
   CLUSTER_NAME: Large
   DATABASE_URL: mysql://west:8806/mysql3
   ENVIRONMENT: Dev
   REGION: West US
   SOME_COMMON_ENVIRONMENT_VARIABLE: "false"
-kind: ConfigMap
-metadata:
-  name: platform-config
-  namespace: dev-platform-team-observability-prometheus
+binarydata: {}
