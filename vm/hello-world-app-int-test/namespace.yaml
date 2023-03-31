@@ -5,9 +5,9 @@
     ansible.builtin.user:
         name: dev-hello-world-app-int-test
   - name: cope platform configs
-    ansible.builtin.copy:
-        src: ./platform-config
-        dest: /home/dev-hello-world-app-int-test/platform-config
-        owner: dev-hello-world-app-int-test
-        group: dev-hello-world-app-int-test
-        mode: u+rw,g-wx,o-rwx
+      ansible.builtin.copy:
+          src: ./platform-config
+          dest: /home/dev-hello-world-app-int-test/platform-config
+          owner: dev-hello-world-app-int-test
+          group: dev-hello-world-app-int-test
+          mode: u+rw,g-wx,o-rwx
