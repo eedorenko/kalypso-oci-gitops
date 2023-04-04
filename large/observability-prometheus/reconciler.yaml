@@ -5,8 +5,8 @@ metadata:
   namespace: argocd
 spec:
     destination:
-        server: https://kubernetes.default.svc
         namespace: dev-platform-team-observability-prometheus
+        server: https://kubernetes.default.svc              
     project: default
     source:
         path: ./prometheus

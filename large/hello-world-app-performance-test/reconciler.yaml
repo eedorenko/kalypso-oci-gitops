@@ -5,8 +5,8 @@ metadata:
   namespace: argocd
 spec:
     destination:
-        server: https://kubernetes.default.svc
         namespace: dev-kaizen-app-team-hello-world-app-performance-test
+        server: https://kubernetes.default.svc              
     project: default
     source:
         path: ./performance-test
