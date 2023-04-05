@@ -5,8 +5,8 @@ metadata:
   namespace: argocd
 spec:
     destination:
-        server: https://kubernetes.default.svc
         namespace: stage-kaizen-app-team-hello-world-app-uat-test
+        server: https://kubernetes.default.svc              
     project: default
     source:
         path: ./uat-test
