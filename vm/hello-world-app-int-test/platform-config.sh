@@ -1,5 +1,5 @@
 export CLUSTER_NAME="VM"
-export DATABASE_URL="mysql://west:8806/mysql"
+export DATABASE_URL="mysql://west:8806/mysql123"
 export ENVIRONMENT="Dev"
 export REGION="West US"
 export SOME_COMMON_ENVIRONMENT_VARIABLE="false"
